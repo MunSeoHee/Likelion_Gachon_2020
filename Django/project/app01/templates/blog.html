@@ -1,0 +1,8 @@
+<h1>blog.html</h1>
+
+{% for i in blogs.all %}
+    <a href="detail/{{i.id}}">{{i.title}}</a>
+    <br><br>
+{%endfor%}
+
+<a href="{% url 'new' %}">게시글작성</a>

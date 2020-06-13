@@ -1,0 +1,11 @@
+{% for i in users.all%}
+    {{i.email}}<br>
+    {{i.name}}<br>
+    {{i.pw}}<br>
+    {{i.age}}<br>
+    {%if i.gender == 0%}
+        남자<br>
+    {%else%}
+        여자<br>
+    {%endif%}
+{%endfor%}

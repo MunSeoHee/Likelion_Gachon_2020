@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>멋사 과제</title>
+    <style>
+        a{
+            color:black;
+            font-weight: bold;
+        }
+        .nav-link{
+            color:rgb(116,120,127);
+            font-weight: normal;
+        }
+        button{
+            height: 90%;
+            
+        }
+        img{
+            height: auto!important;
+            width: 20%!important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid shadow-sm p-2 mb-5 bg-white rounded">
+        <div class="row ml-5 mr-5">
+            <div class="col">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Logo</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">서비스</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">로그인</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">회원가입</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">도움말</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+            
+    </div>
+    <div class="container ">
+        <div class="row d-flex justify-content-center text-center mb-4">
+            <h1>회원가입</h1>
+        </div>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-4">
+                <form action="#" method="GET">
+                    <input class="form-control rounded-0 mb-3" type="text" placeholder="이름" name="name">
+                    <input class="form-control rounded-0 mb-3" type="text" placeholder="이메일" name="email">
+                    <input class="form-control rounded-0 mb-3" type="password" placeholder="비밀번호" name="pw">
+                    <input class="form-control rounded-0 mb-3" type="password" placeholder="비밀번호 확인" name="pw_check">
+                    <div class="form-check d-flex justify-content-start mb-3">
+                        <input class="form-check-input rounded-0" type="checkbox" value="true" id="defaultCheck1" name="check1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          서비스에 대한 소식을 이메일로 받아봅니다
+                        </label>
+                    </div>
+                    <div class="form-check d-flex justify-content-start mb-3">
+                        <input class="form-check-input rounded-0" type="checkbox" value="true" id="defaultCheck1" name="check2">
+                        <label class="form-check-label" for="defaultCheck1">
+                          서비스 약관에 동의합니다
+                        </label>
+                    </div>
+                    <input type="submit" value="가입하기" class="btn btn-primary btn-lg btn-block mt-4 rounded-0">
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5 d-flex justify-content-center text-center">
+            <div class="col-4 d-flex justify-content-start ">
+                <p>다른 서비스 계정으로 가입</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-2 pr-1">
+                <button type="button" class="btn btn-primary btn-lg btn-block rounded-0 d-flex align-items-center" style="background-color: rgb(65,92,150); border:none;"><img src="https://m.home-story.co.kr/web/upload/NNEditor/20190305/Facebook-256.png" class="img-fluid" alt="Responsive image">페이스북</button>
+            </div>
+            <div class="col-2 pl-1"><button type="button" class="btn btn-primary btn-lg btn-block rounded-0 d-flex align-items-center"  style="background-color: rgb(236,236,236); border:none; color:rgb(116,120,127);"><img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png" class="img-fluid" alt="Responsive image">구글</button></div>
+        </div>
+        <div class="row d-flex justify-content-center text-center mt-2">
+            <div class="col-2 pr-1">
+                <button type="button" class="btn btn-primary btn-lg btn-block rounded-0 d-flex align-items-center" style="background-color: rgb(48,199,31); border:none;"><img src="https://mblogthumb-phinf.pstatic.net/MjAxNzA1MjVfODEg/MDAxNDk1NzEwNjY2MjM1.F1vQ76vAO1zZ2Jy3KSUGrKSh_AVyucCDVSuIivfDzx8g.6d7pNmgwXgT1bsb_lnLXGATePjGlyd1iXXulHKbMzOYg.PNG.krazymouse/%EB%84%A4%EC%9D%B4%EB%B2%84.png?type=w800" class="img-fluid" alt="Responsive image">네이버</button>
+            </div>
+            <div class="col-2 pl-1"><button type="button" class="btn btn-primary btn-lg btn-block rounded-0 d-flex align-items-center" style="background-color: rgb(34,30,27); border:none;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyNoFRe_pFDkSYv-_04Gf_8Kcp-GcXuLtU4XlV301EmZwCsv0l&usqp=CAU" class="img-fluid" alt="Responsive image">깃허브</button></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3 d-flex justify-content-center text-center">
+            <div class="col-4 ">
+                <hr>
+                <p>이미 가입하셨다면? <a href="">로그인</a></p>
+            </div>
+        </div>
+        
+    </div>
+    
+      
+</body>
+</html>
