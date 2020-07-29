@@ -1,0 +1,8 @@
+<h1>index.html</h1>
+
+{%for i in x.all %}
+<a href="/{{i.id}}">{{i.name}}</a><br>  
+{%endfor%}
+
+
+<a href="{%url 'create'%}">작성</a>
