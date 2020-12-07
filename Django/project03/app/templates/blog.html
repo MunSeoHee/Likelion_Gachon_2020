@@ -1,0 +1,19 @@
+{%for i in posts%}
+    {{i.title}}<Br>
+    {{i.contents}}<br>
+    {{i.id}}<br>
+    {{i.date}}<br><br>
+{%endfor%}
+
+{%if posts.has_previous%}
+<a href="?page={{posts.previous_page_number}}">Previous</a>
+{%endif%}
+
+<span>{{posts.number}}</span>
+<span>of</span>
+<span>{{posts.paginator.num_pages}}</span>
+
+{%if posts.has_next%}
+<a href="?page={{posts.next_page_number}}">Next</a>
+{%endif%}
+
